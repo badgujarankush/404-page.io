@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  margin-top: 40px;
+  margin-left: 77px;
+  margin-bottom: 200px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  /* width: 100%; */
+  margin: 0px 119px 0px 77px;
+}
+
+.image {
+  width: 540px;
+  height: 447px;
+  margin-right: 120px;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-family: "Inconsolata", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+}
+
+.heading {
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  margin-bottom: 36px;
+}
+
+p {
+  font-family: "Space Mono";
+  font-style: normal;
+  width: 381px;
+  height: 108px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+  margin-bottom: 64px;
+}
+
+button {
+  border-style: none;
+  background: #333333;
+  width: 216px;
+  height: 68px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+h6 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #bdbdbd;
+  margin: 308px;
+}
+@media screen and (max-width: 600px) {
+  nav {
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-bottom: 64px;
+  }
+  .container {
+    width: 350px;
+    flex-direction: column;
+    margin-left: 24px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .image {
+    width: 287px;
+    height: 238px;
+    /* margin-right: 44px; */
+    margin: 0 auto;
+    margin-bottom: 60px;
+    
+  }
+  
+  .heading {
+    font-size: 48px;
+    line-height: 71px;
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 18px;
+    width: 328px;
+    height: 81px;
+    margin-bottom: 66px;
+  }
+  h6 {
+    margin: 114px auto;
+    font-size: 14px;
+    width: 287px;
+    height: 17px;
+    text-align: center;
+  }
+}
